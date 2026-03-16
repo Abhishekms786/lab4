@@ -1,2 +1,33 @@
-good morning all
+$ git --version
+$ git config --global user.name "Abhishekms786"
+$ git config --global user.email "abhishekms1234.x@gmail.com"
+$ git config --list
+$ mkdir lab4
+$ cd lab4
+$ git init
+$ ls -a
+$ touch index.txt
+$ git status
+$ echo "good morning">index.txt
+$ cat index.txt
+$ git add index.txt
+$ git add .
+$ git commit -m "intial commit"
+$ git log
+$ git remote add origin https://github.com/Abhishekms786/lab4.git
+$ git branch -M master
+$ git push -u origin master
+$ vi index.txt
+$ cat index.txt
+$ git add index.txt
+$ git add .
+$ git commit -m "change mode"
+$ git log
+$ git push -u origin master
+$ git clone https://github.com/Abhishekms786/lab4.git
+git reset --hard
+
+
+
+
 
